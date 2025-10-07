@@ -1,2 +1,22 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+
+/* Google font: inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    font-family: "Inter", sans-serif;
+}
+
+
+.text-gredient{
+    color: linear-gradient(125.07deg, rgba(99, 46, 227, 1),rgba(159, 98, 242, 1) 100%);
+}
+
+.btn-gradient{
+    background: linear-gradient(125.07deg, rgba(99, 46, 227, 1),rgba(159, 98, 242, 1) 100%);
+}
+
+
+
