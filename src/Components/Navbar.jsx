@@ -25,7 +25,7 @@ const Navbar = () => {
                             <li><Link to={"/installation"}>Installation</Link></li>
                         </ul>
                         </div>
-                        <a className=" flex items-center gap-1 font-bold text-xl text-[#632EE3]"> <figure className='w-10'><img className='object-cover' src={siteLogo} alt="Site Logo" /></figure> HERO.IO</a>
+                        <Link to={"/"} className=" flex items-center gap-1 font-bold text-xl text-[#632EE3]"> <figure className='w-10'><img className='object-cover' src={siteLogo} alt="Site Logo" /></figure> HERO.IO</Link>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">

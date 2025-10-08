@@ -5,7 +5,7 @@ import AppCard from '../Components/AppCard';
 import { Link } from 'react-router';
 import Loading from '../Layouts/Loading';
 import AppNotFound from './AppNotFound';
-import ErrorPage from './ErrorPage';
+// import ErrorPage from './ErrorPage';
 
 
 
@@ -30,7 +30,16 @@ const Apps = () => {
         <>
         <div className='py-20 bg-[#F5F5F5] '>
         <Container>
-            <div className='flex justify-between items-center mb-10 px-2'>
+
+                <div className='text-center mb-10 space-y-3'>
+                    <h2 className='text-[#001931] text-5xl font-bold'>Our All Applications</h2>
+                    <p className='text-[#627382] text-xl'>Explore All Apps on the Market developed by us. We code for Millions</p>
+                </div>
+
+
+
+            <div className='text-center space-y-3'>
+            <div className='flex justify-between items-center mb-2 px-2'>
                 <div>
                     <h6 className='font-semibold'>(<span>{searchedApps.length}</span>) Apps Found</h6>
                 </div>
@@ -52,11 +61,7 @@ const Apps = () => {
                     </label>
                 </div>
             </div>
-            <div className='text-center space-y-3'>
-                <div className='text-center space-y-3'>
-                    <h2 className='text-[#001931] text-5xl font-bold'>Trending Apps</h2>
-                    <p className='text-[#627382] text-xl'>Explore All Trending Apps on the Market developed by us</p>
-                </div>
+
                 {
                     searchedApps.length === 0?
                      <AppNotFound />

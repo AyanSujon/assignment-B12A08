@@ -12,8 +12,8 @@ const Hero = () => {
             <h1 className='font-bold text-3xl md:text-5xl lg:text-6xl'>We Build <br /> <span className='text-[#632EE3]'>Productive</span> Apps</h1>
             <p className=' w-full md:w-2/3 lg:w-3/4 mx-auto '>At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
             <div className="btn-box flex gap-5 items-center justify-center">
-                <button className="btn"><span><img src={appStore} alt="App Store" /></span>Google Play</button>
-                <button className="btn"><span><img src={playStore} alt="Play Store" /></span>Google Play</button>
+                <a href='https://www.apple.com/app-store/' target='_blank'  className="btn"><span><img src={appStore} alt="App Store" /></span>Google Play</a>
+                <a href='https://play.google.com/' target='_blank' className="btn"><span><img src={playStore} alt="Play Store" /></span>Google Play</a>
             </div>
             <figure >
                 <img className='mx-auto ' src={heroImg} alt="Hero Image" />
