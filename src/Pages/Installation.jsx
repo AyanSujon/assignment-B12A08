@@ -29,6 +29,26 @@ const Installation = () => {
     )();
 
 
+    const handleRemove = (id)=>{
+         const existinglist = JSON.parse(localStorage.getItem('installation'))
+        let updatedList = existinglist.filter(a => a.id !== id );
+        // for ui instant update
+        setInstall(updatedList);
+ 
+        localStorage.setItem("installation", JSON.stringify(updatedList));
+
+
+
+
+
+
+
+
+
+
+    }
+
+
     return (
         <div className='bg-[#F5F5F5] py-20'>
             <Container>
@@ -56,22 +76,6 @@ const Installation = () => {
                     <option value='size-dsc'>High-Low</option>
                     <option value='size-asc'>Low-High</option>
                     </select>
-
-
-
-
-
-                        {/* <details className="dropdown">
-                        <summary value={'none'} className="btn m-1">Sort By Size<span><ChevronDown /></span></summary>
-                        <ul 
-                        value={sortOrder}
-                        onChange={e => setSortOrder(e.target.value)}
-                        
-                        className="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
-                            <li><a value='size-dsc'>High-Low</a></li>
-                            <li><a value='size-asc'>Low-High</a></li>
-                        </ul>
-                        </details> */}
                     </div>
                 </div>
 
@@ -94,7 +98,7 @@ const Installation = () => {
                                 </div>
                             </div>
                         </div>
-                        <button className='btn bg-[#00D390] text-white'>Uninstall</button>
+                        <button onClick={()=> handleRemove(a.id)} className='btn bg-[#00D390] text-white'>Uninstall</button>
                     </div>
 
                     )
