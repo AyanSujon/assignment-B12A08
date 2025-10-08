@@ -16,7 +16,7 @@ const AppDetails = () => {
        if(loading){
         return <p>Loading...</p>
        }
-    const {title, image, ratingAvg, downloads, companyName, reviews} = app || {};
+    const {title, image, ratingAvg, downloads, companyName, reviews, description} = app || {};
 
 
 
@@ -24,13 +24,14 @@ const AppDetails = () => {
         <>
         <div className='bg-[#FAFAFA] py-20'>
             <Container>
+                {/* mian Section */}
                 <div className="card grid grid-cols-12">
-                <figure className=' col-span-12 md:col-span-3'>
+                <figure className=' col-span-12 md:col-span-4'>
                     <img className=''
                     src={image}
                     alt="image" />
                 </figure>
-                <div className="card-body col-span-12 md:col-span-9">
+                <div className="card-body col-span-12 md:col-span-8">
                     <h2 className="card-title font-bold text-3xl"> {title}ToDo List with Reminder</h2>
                     <p className='text-xl'>Developed by <span className='text-[#632EE3]'>{companyName}</span> </p>
                       <div className="divider"></div>
@@ -62,6 +63,23 @@ const AppDetails = () => {
                     </div>
                 </div>
                 </div>
+                {/* Ratings Section */}
+                <div className="divider"></div>
+
+
+
+
+
+
+                {/* Description Section */}
+                <div className="divider"></div>
+                <div className='px-2 space-y-2'>
+                    <h3 className='font-bold text-3xl'>Description</h3>
+                    <p className=' text-[#627382]'>{description}</p>
+                </div>
+
+
+
             </Container>
         </div>
         

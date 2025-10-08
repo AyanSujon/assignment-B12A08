@@ -1,5 +1,4 @@
 import React from 'react';
-import cardImage from '../assets/Rectangle 2.png';
 import { Download, Star } from 'lucide-react';
 import { Link } from 'react-router';
 
@@ -10,8 +9,9 @@ const AppCard = ({app}) => {
     return (
         <Link to={`/apps/${id}`}>
         <div className="card bg-base-100 shadow-sm">
-        <figure>
+        <figure className='p-3 w-55 mx-auto'>
             <img
+            className='w-full object-cover'
             src={image}
             alt="Card image" />
         </figure>

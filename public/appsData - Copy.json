@@ -1,0 +1,453 @@
+[
+  {
+    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
+    "title": "Notion",
+    "companyName": "Notion Labs, Inc.",
+    "id": 1,
+    "description": "Notion is an all-in-one workspace app designed to help you organize your personal and professional life effortlessly. It combines the best features of note-taking, project management, and collaboration tools into one unified platform. Whether you’re a freelancer planning projects, a student organizing class notes, or a team collaborating on product design, Notion adapts to your workflow. You can create customizable pages, databases, kanban boards, and to-do lists—all within a clean, minimalist interface. Notion also offers powerful templates that save time and help users get started quickly. With drag-and-drop blocks, embedding options, and markdown support, it gives you creative freedom to structure information your way. Its real-time collaboration features allow teams to co-edit pages, leave comments, and track progress seamlessly. Integration with tools like Slack, Google Drive, and Trello makes it even more versatile. For individuals, Notion can serve as a second brain—storing everything from travel plans to book summaries. The mobile app syncs perfectly across devices, so your workspace is always in reach. With offline mode, dark theme, and automation capabilities, Notion is more than just an app—it’s a productivity system that scales with your goals and grows as you do.",
+    "size": 92,
+    "reviews": 3800000,
+    "ratingAvg": 4.8,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 3350000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
+    "title": "Todoist",
+    "companyName": "Doist Inc.",
+    "id": 2,
+    "description": "Todoist is a simple yet powerful task management app built to help you stay organized and productive every day. It turns your goals, ideas, and daily responsibilities into clear, actionable lists. Whether you’re managing work projects, grocery lists, or long-term plans, Todoist provides a structured approach to managing your tasks effectively. With its elegant design and intuitive interface, you can easily create projects, add deadlines, set priorities, and assign tasks to others. Natural language input lets you add tasks quickly, like 'Submit report Monday at 9am', and Todoist automatically schedules it. The app syncs across all your devices in real-time, ensuring your to-do lists are always updated. Todoist’s Karma feature adds a motivational twist by tracking your progress and rewarding consistency. You can view productivity trends and set weekly goals to stay on track. For teams, it supports collaboration through shared projects and comments. Integrations with Gmail, Slack, and Google Calendar make it a seamless part of your daily workflow. Whether you’re a student, freelancer, or executive, Todoist helps you focus on what matters most—turning plans into accomplishments. With its simplicity, speed, and thoughtful design, Todoist has become a must-have productivity companion for millions worldwide.",
+    "size": 55,
+    "reviews": 2500000,
+    "ratingAvg": 4.7,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 2100000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
+    "title": "Evernote",
+    "companyName": "Evernote Corporation",
+    "id": 3,
+    "description": "Evernote is a note-taking and organization app that helps you capture ideas, tasks, and inspiration all in one place. Designed for both personal and professional use, it enables users to create detailed notes, store attachments, record voice memos, and even scan handwritten documents. Whether you're planning a big project, writing an essay, or organizing meeting notes, Evernote gives you the flexibility to manage information your way. Notes are easily searchable with tags and filters, while notebooks help you categorize topics neatly. The app syncs instantly across devices, so you can start a note on your laptop and finish it on your phone. Evernote also integrates with popular tools like Slack, Google Drive, and Outlook to streamline your workflow. The Web Clipper extension allows you to save web pages and articles directly into your notebooks for later reference. With features like task reminders, document scanning, and note sharing, Evernote keeps your digital life tidy and accessible. The Premium plan adds powerful search within attachments, offline access, and additional storage. For people who thrive on structure and clarity, Evernote serves as an indispensable productivity hub, helping turn scattered thoughts into organized actions that move you forward.",
+    "size": 110,
+    "reviews": 6000000,
+    "ratingAvg": 4.4,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "5 star", "count": 4000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
+    "title": "Headspace",
+    "companyName": "Headspace Inc.",
+    "id": 4,
+    "description": "Headspace is a mindfulness and meditation app designed to help users reduce stress, improve focus, and cultivate better mental well-being. It provides guided meditations, sleep aids, focus music, and breathing exercises that fit seamlessly into daily life. Whether you’re a beginner or an experienced meditator, Headspace offers sessions for everyone—from two-minute quick meditations to full mindfulness courses. The app’s beautifully designed interface, calming visuals, and gentle voice guidance create a soothing experience. You can track your mood, build healthy habits, and even join themed programs like ‘Mindful Eating’ or ‘Stress Management’. For sleep, Headspace offers relaxing soundscapes, bedtime stories, and wind-down meditations to help you fall asleep naturally. Its “Focus Mode” provides curated playlists for productivity and creativity, ideal for work sessions. Headspace collaborates with psychologists and meditation experts to ensure scientifically supported techniques. The app encourages consistency through streaks, reminders, and progress insights. With millions of users worldwide, Headspace has become more than a meditation tool—it’s a lifestyle companion that empowers mental clarity and emotional balance. Perfect for busy individuals, Headspace brings peace and focus to your fingertips, helping you navigate life’s challenges with calm and mindfulness.",
+    "size": 85,
+    "reviews": 4800000,
+    "ratingAvg": 4.7,
+    "downloads": 65000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 3900000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
+    "title": "Asana",
+    "companyName": "Asana, Inc.",
+    "id": 5,
+    "description": "Asana is a project and task management app built to help teams stay organized, track progress, and collaborate effectively. It replaces messy email chains and spreadsheets with a streamlined workspace where every task has clarity and accountability. Whether you’re managing complex projects or daily operations, Asana helps break goals into actionable steps with due dates, priorities, and dependencies. Its flexible interface supports lists, boards, calendars, and timeline views, allowing teams to visualize work however they prefer. Managers can monitor progress in real time through dashboards and workload views, ensuring resources are allocated efficiently. Asana integrates seamlessly with Slack, Zoom, Google Drive, and hundreds of other tools, creating a centralized productivity hub. It also offers automation features that eliminate repetitive tasks, freeing up time for creative work. Notifications, comments, and attachments keep communication in context, while mobile sync ensures productivity on the go. With its clean design and powerful features, Asana fosters transparency and efficiency across organizations of all sizes. Whether you’re a startup or an enterprise, Asana turns collaboration into clarity, helping teams move faster and achieve more together.",
+    "size": 120,
+    "reviews": 2100000,
+    "ratingAvg": 4.6,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 1600000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
+    "title": "Grammarly",
+    "companyName": "Grammarly Inc.",
+    "id": 6,
+    "description": "Grammarly is a writing assistant app that helps users craft clear, engaging, and error-free content across all platforms. Whether you’re writing an email, essay, social post, or blog article, Grammarly ensures your text is polished and professional. It checks for grammar, punctuation, spelling, and tone—providing suggestions in real time. Beyond basic corrections, Grammarly’s AI analyzes your intent and offers improvements for clarity, engagement, and delivery. The tone detector helps you ensure your message sounds confident or friendly depending on the context. Grammarly integrates seamlessly with browsers, Microsoft Word, Google Docs, and mobile keyboards, ensuring you write with confidence anywhere. The Premium plan adds advanced feedback on vocabulary enhancement, sentence variety, and readability. Grammarly Business brings collaboration tools, analytics, and team-wide consistency features. The app’s clean design and intuitive suggestions make writing effortless for students, professionals, and creatives alike. With over 30 million daily users, Grammarly has become an essential productivity tool for anyone who values effective communication. It doesn’t just correct mistakes—it helps you become a better writer every day through personalized insights and progress tracking.",
+    "size": 90,
+    "reviews": 5700000,
+    "ratingAvg": 4.8,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 4800000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "id": 7,
+    "description": "Trello is a visual project management app that makes it easy to organize tasks, projects, and ideas using boards, lists, and cards. Its intuitive design helps teams and individuals collaborate efficiently without unnecessary complexity. Each card represents a task or idea, which can be moved across lists like ‘To Do’, ‘Doing’, and ‘Done’. Users can assign members, due dates, attachments, and comments to keep everyone in sync. Trello is flexible enough for any workflow—from managing software sprints to planning personal goals or family events. Power-Ups enhance its functionality with calendar views, automation, time tracking, and integrations with Slack, Dropbox, and Google Drive. Butler automation saves time by performing repetitive actions automatically. Trello’s strength lies in its simplicity: it’s visual, fast, and easy to learn. The mobile app ensures you stay updated anywhere, while desktop users enjoy keyboard shortcuts and real-time sync. Trello fosters transparency, accountability, and creativity, making teamwork feel intuitive and fun. Whether you’re a freelancer managing clients or part of a large team, Trello adapts to your workflow and helps you stay organized and productive effortlessly.",
+    "size": 70,
+    "reviews": 3600000,
+    "ratingAvg": 4.6,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 3000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
+    "title": "Calm",
+    "companyName": "Calm.com, Inc.",
+    "id": 8,
+    "description": "Calm is a leading meditation and sleep app that helps millions of users improve their mental well-being, focus, and relaxation. It offers guided meditations, soothing music, nature sounds, and bedtime stories narrated by famous voices. Calm’s goal is to make mindfulness accessible to everyone, no matter their experience level. The app features structured programs to manage anxiety, build self-esteem, and improve concentration. Its ‘Daily Calm’ provides a new short session each day to help you stay consistent with your mindfulness journey. For sleep, Calm’s sound library includes ambient tracks and stories that help you drift off naturally. The app also includes breathing exercises and relaxation stretches for moments of stress relief throughout the day. Beautiful visuals and gentle animations enhance the overall calming experience. With tracking features and reminders, users can monitor progress over time. Calm integrates seamlessly with Apple Health and wearables to track mindfulness minutes. It’s more than an app—it’s a wellness companion designed to restore balance in a busy world. Perfect for those seeking peace, focus, and better rest, Calm continues to redefine self-care for the digital generation.",
+    "size": 95,
+    "reviews": 6400000,
+    "ratingAvg": 4.8,
+    "downloads": 90000000,
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 130000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 5400000 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
+    "title": "ZenFlow",
+    "companyName": "SerenityWorks",
+    "description": "ZenFlow is a mindfulness and productivity app that blends time management with emotional awareness. Designed for freelancers, creatives, and busy professionals, it helps users organize their day around focus sessions, meditation breaks, and short reflections. Unlike typical productivity apps that overwhelm you with reminders and rigid schedules, ZenFlow integrates gentle notifications and mindfulness sounds to keep you centered. The app’s core feature, 'Flow Timer,' uses scientifically tested Pomodoro intervals with breathing prompts before and after each work cycle. Users can journal quick gratitude notes, track daily emotions, and measure mood patterns through a clean, minimal dashboard. ZenFlow also integrates with Google Calendar and Slack, allowing seamless synchronization between personal and professional life. Its goal is not just to increase output but to help you feel good while doing it. The community section offers guided meditations, focus music, and mini challenges that reward mindful behavior over hustle culture. Whether you’re working from home, studying, or simply trying to stay grounded, ZenFlow keeps your mental clarity and productivity in harmony.",
+    "size": 62,
+    "reviews": 1842,
+    "ratingAvg": 4.6,
+    "downloads": 670000,
+    "ratings": [
+      { "name": "1 star", "count": 112 },
+      { "name": "2 star", "count": 94 },
+      { "name": "3 star", "count": 202 },
+      { "name": "4 star", "count": 521 },
+      { "name": "5 star", "count": 913 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
+    "title": "FocusNest",
+    "companyName": "BrightCore Apps",
+    "description": "FocusNest is a digital productivity hub designed for people who struggle to maintain focus in a distracted world. The app offers tools such as a distraction blocker, soundscape generator, and a unique 'Task Bird' system that encourages users to complete small, achievable goals called 'nests.' Each completed task rewards you with a calming visual of a bird building its nest — symbolizing gradual growth and consistency. FocusNest stands out for its seamless blend of gamification and minimal interface design. It also includes weekly review insights that help users understand where their time went and how to improve their next week. Integrated with both desktop and mobile, it synchronizes across devices so users can track tasks and focus sessions from anywhere. FocusNest even detects idle time to remind you to take breaks, stretch, or hydrate. Designed with input from behavioral psychologists, the app balances focus, motivation, and rest — turning productivity into a healthy habit instead of a burnout cycle.",
+    "size": 59,
+    "reviews": 2341,
+    "ratingAvg": 4.7,
+    "downloads": 740000,
+    "ratings": [
+      { "name": "1 star", "count": 133 },
+      { "name": "2 star", "count": 121 },
+      { "name": "3 star", "count": 198 },
+      { "name": "4 star", "count": 603 },
+      { "name": "5 star", "count": 1286 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
+    "title": "HabitPulse",
+    "companyName": "NeuroTrack Labs",
+    "description": "HabitPulse is a lifestyle improvement and habit-tracking app that helps users build routines that stick. Unlike traditional habit apps that only track streaks, HabitPulse focuses on behavior psychology and motivation. It analyzes your daily consistency and provides insights into what times or moods correlate with your highest success rates. Each habit can be customized with reminders, motivational quotes, and progress graphs. The app also includes habit chains that connect smaller tasks into meaningful goals — perfect for anyone trying to integrate new habits like exercising, reading, or meditation into their daily lives. The dashboard visualizes progress using color-coded energy bars that make improvement easy to spot. With AI-based reminders, HabitPulse adapts over time, learning when you're most likely to skip or succeed. The community section allows users to share milestones, join 30-day habit challenges, and receive encouragement from others. HabitPulse turns self-improvement into a science-backed, inspiring experience that’s both personal and sustainable.",
+    "size": 54,
+    "reviews": 3142,
+    "ratingAvg": 4.8,
+    "downloads": 960000,
+    "ratings": [
+      { "name": "1 star", "count": 155 },
+      { "name": "2 star", "count": 167 },
+      { "name": "3 star", "count": 204 },
+      { "name": "4 star", "count": 742 },
+      { "name": "5 star", "count": 1874 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
+    "title": "MotiMate",
+    "companyName": "VitaApps Studio",
+    "description": "MotiMate is an emotional companion and motivation tracker for everyday productivity. Designed to combat procrastination, the app uses a blend of daily affirmations, guided reflections, and progress tracking to help users reach their personal goals. With MotiMate, users can record their goals, create mood-linked reminders, and get AI-driven motivation nudges that feel personal and empathetic. The app also includes a daily gratitude log and 'Emotion Cards' that let you describe how you feel before you start a task. Over time, the app learns your emotional patterns and offers tailored advice to help you push through low-energy days. Its minimalist interface features soft color tones and calming animations to encourage mental clarity. The integrated ‘Mind Feed’ section gives short motivational videos, community stories, and productivity tips to keep users inspired throughout the day. MotiMate redefines motivation tracking by combining emotional intelligence with practical action — making it more than just a task manager.",
+    "size": 48,
+    "reviews": 1785,
+    "ratingAvg": 4.5,
+    "downloads": 510000,
+    "ratings": [
+      { "name": "1 star", "count": 121 },
+      { "name": "2 star", "count": 106 },
+      { "name": "3 star", "count": 185 },
+      { "name": "4 star", "count": 501 },
+      { "name": "5 star", "count": 872 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
+    "title": "PlanDeck",
+    "companyName": "BlueOak Digital",
+    "description": "PlanDeck is a task and project management app designed for small teams, freelancers, and personal organization. It offers a clean drag-and-drop interface that lets users manage projects visually through boards, lists, and cards. Each task can include attachments, subtasks, and progress trackers. Unlike traditional task apps, PlanDeck emphasizes simplicity and speed — perfect for individuals who want Trello-like power without unnecessary complexity. The app’s AI assistant helps generate project timelines, recurring reminders, and goal forecasts. Team members can leave comments, assign priorities, and track milestones in real-time. For solo users, PlanDeck acts as a digital planning notebook, syncing across devices for daily organization. Its calendar view integrates seamlessly with Google and Outlook. With light/dark themes, offline access, and customizable color tags, PlanDeck gives users everything they need to stay organized and efficient. It’s the ultimate planning companion for anyone who values both clarity and productivity in a distraction-free interface.",
+    "size": 65,
+    "reviews": 2948,
+    "ratingAvg": 4.7,
+    "downloads": 820000,
+    "ratings": [
+      { "name": "1 star", "count": 153 },
+      { "name": "2 star", "count": 164 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 633 },
+      { "name": "5 star", "count": 1788 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://i.ibb.co.com/93fcmL6S/download.pngg",
+    "title": "TimeTide",
+    "companyName": "WaveSync Apps",
+    "description": "TimeTide is a dynamic time-tracking and focus-analysis app built for freelancers and remote professionals. It combines detailed analytics with minimalistic design to help users understand how they spend their time. The app automatically detects idle periods, categorizes activities, and visualizes productivity trends. One of TimeTide’s standout features is its 'Energy Curve' graph that shows which hours of the day you perform best. It also includes smart reminders to take micro-breaks, drink water, and stretch — helping maintain long-term focus. Users can label tasks as deep work, shallow work, or rest, providing a realistic overview of daily habits. TimeTide integrates with project management tools like Asana and ClickUp, allowing time logs to be exported seamlessly. The insights section provides weekly reports that highlight wasted time and focus improvement opportunities. TimeTide isn’t just about counting hours; it’s about optimizing energy and achieving balance — empowering users to work smarter, not longer.",
+    "size": 57,
+    "reviews": 2513,
+    "ratingAvg": 4.6,
+    "downloads": 790000,
+    "ratings": [
+      { "name": "1 star", "count": 141 },
+      { "name": "2 star", "count": 172 },
+      { "name": "3 star", "count": 205 },
+      { "name": "4 star", "count": 612 },
+      { "name": "5 star", "count": 1383 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
+    "title": "BreatheIn",
+    "companyName": "AuraLab",
+    "description": "BreatheIn is a simple yet powerful breathing and mindfulness app designed to reduce stress, improve sleep, and boost focus. It guides users through customizable breathing exercises, visual animations, and gentle soundscapes. The app’s goal is to help users reconnect with their breath throughout the day — an essential tool for calming anxiety or regaining concentration. BreatheIn also includes a 'Focus Mode' that combines breathing exercises with timed sessions, ideal for those who want to stay productive without tension. With calming nature sounds, dark mode themes, and scientifically backed breathing rhythms, the app supports mental clarity and relaxation. It tracks your breathing history, progress, and even stress trends using data visualizations. Whether you’re preparing for a meeting, unwinding before bed, or starting a meditation practice, BreatheIn provides accessible wellness in your pocket. Its design emphasizes simplicity, peace, and daily mindfulness — helping users slow down in a fast-paced world.",
+    "size": 41,
+    "reviews": 2136,
+    "ratingAvg": 4.8,
+    "downloads": 640000,
+    "ratings": [
+      { "name": "1 star", "count": 92 },
+      { "name": "2 star", "count": 118 },
+      { "name": "3 star", "count": 176 },
+      { "name": "4 star", "count": 548 },
+      { "name": "5 star", "count": 1202 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
+    "title": "LifeTrack",
+    "companyName": "VibeMatrix",
+    "description": "LifeTrack is a comprehensive life management app that helps users track habits, goals, finances, and health metrics in one unified dashboard. It’s built for individuals who like seeing the big picture of their life progress. LifeTrack allows users to set custom areas such as 'Work,' 'Fitness,' 'Learning,' and 'Personal,' and track measurable actions in each. Through colorful graphs and milestones, users can visualize growth and reflect on their journey. What sets LifeTrack apart is its integration of mental well-being with practical tracking. You can log moods, journal reflections, and attach daily gratitude notes next to your stats. The built-in AI coach offers gentle reminders and motivational summaries to encourage sustainable growth rather than perfectionism. LifeTrack also supports collaboration for accountability partners, letting you share weekly reports or challenges. The clean interface and sync capabilities make it an all-in-one life companion app for balanced living.",
+    "size": 72,
+    "reviews": 2745,
+    "ratingAvg": 4.7,
+    "downloads": 930000,
+    "ratings": [
+      { "name": "1 star", "count": 188 },
+      { "name": "2 star", "count": 176 },
+      { "name": "3 star", "count": 233 },
+      { "name": "4 star", "count": 654 },
+      { "name": "5 star", "count": 1494 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
+    "title": "FlowPad",
+    "companyName": "MetaNote Labs",
+    "description": "FlowPad is a modern digital notebook for thinkers, writers, and creators who value flow and focus. It’s more than a note app — it’s a thinking environment. Each note is designed to adapt dynamically with nested ideas, inline tasks, and AI summarization. Writers love it for its distraction-free editor and automatic writing timer that keeps creativity structured. Students use FlowPad for study organization, while professionals use it to brainstorm or document projects. Its intuitive tag system replaces folders, making it effortless to connect ideas like a digital brain. FlowPad also supports Markdown, quick export to PDF, and offline use. The design is calming, with soft contrast tones and motion-free transitions, so users can focus fully on their content. FlowPad’s mission is to help people capture thoughts and turn them into meaningful outcomes — without clutter or pressure. It’s ideal for anyone who wants clarity, creativity, and seamless note organization in one elegant app.",
+    "size": 60,
+    "reviews": 3121,
+    "ratingAvg": 4.9,
+    "downloads": 850000,
+    "ratings": [
+      { "name": "1 star", "count": 132 },
+      { "name": "2 star", "count": 164 },
+      { "name": "3 star", "count": 211 },
+      { "name": "4 star", "count": 603 },
+      { "name": "5 star", "count": 2011 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
+    "title": "MindSphere",
+    "companyName": "DeepRoot Systems",
+    "description": "MindSphere is an all-in-one mindfulness and emotional wellness platform designed for those who want balance between digital life and mental clarity. It blends guided meditation, mood tracking, and daily reflections into one cohesive system. The app’s core idea is simple: your mental state drives your productivity, not the other way around. MindSphere’s interface feels like a digital sanctuary, featuring calm tones, soft animations, and soundscapes inspired by nature. It provides morning focus sessions, evening decompression routines, and weekly wellness insights. Each meditation is backed by cognitive-behavioral principles that teach users how to manage negative thoughts, anxiety, or overthinking. The built-in journal lets you log gratitude, triggers, and wins — and its AI-powered reflection coach summarizes emotional trends over time. The community area offers live group meditations and support circles, making users feel less isolated. MindSphere doesn’t push hustle culture; instead, it promotes sustainable growth and mindful focus. For anyone juggling work, stress, and personal growth, it’s the perfect digital balance tool.",
+    "size": 68,
+    "reviews": 2952,
+    "ratingAvg": 4.8,
+    "downloads": 780000,
+    "ratings": [
+      { "name": "1 star", "count": 112 },
+      { "name": "2 star", "count": 143 },
+      { "name": "3 star", "count": 205 },
+      { "name": "4 star", "count": 601 },
+      { "name": "5 star", "count": 1891 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
+    "title": "TaskMount",
+    "companyName": "SkyTree Apps",
+    "description": "TaskMount helps users climb their personal productivity peaks one task at a time. Inspired by the discipline of mountaineering, this app motivates you to break complex projects into manageable steps called 'climbs.' Each climb can be visualized as a small milestone on your journey to completing a goal. The app provides built-in templates for goal setting, project timelines, and progress analytics. Users can also sync it with their calendars and set energy-based reminders. TaskMount uses a points and rewards system to encourage consistency rather than perfectionism. It also integrates a 'Summit View' dashboard that shows your yearly productivity peaks — a motivating visual tracker. The app is ideal for freelancers, students, and creators who want structure without pressure. TaskMount transforms your workflow into a gamified, visually rich journey that keeps you inspired from the first step to the summit.",
+    "size": 63,
+    "reviews": 2448,
+    "ratingAvg": 4.6,
+    "downloads": 720000,
+    "ratings": [
+      { "name": "1 star", "count": 134 },
+      { "name": "2 star", "count": 166 },
+      { "name": "3 star", "count": 204 },
+      { "name": "4 star", "count": 578 },
+      { "name": "5 star", "count": 1366 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
+    "title": "CalmiGo",
+    "companyName": "Zenovate Studios",
+    "description": "CalmiGo is a lifestyle app that promotes mindful breathing, deep rest, and personal calm in the middle of daily chaos. Built with neuroscience-based relaxation techniques, it guides users through breathing exercises and ambient sound sessions tailored to stress levels. Unlike typical meditation apps, CalmiGo reacts to your input — it adjusts the tempo and rhythm of the breathing pattern based on your heart rate and stress indicators (if you use a wearable). The app’s daily relaxation streaks help users build a sustainable calm habit. CalmiGo also features a 'Sleep Garden,' where users can access guided sleep stories and relaxing soundscapes designed for different moods. The minimalist design, paired with smooth animations, creates a comforting visual journey. Whether you’re unwinding after work, calming anxiety before a presentation, or trying to focus before studying, CalmiGo brings practical peace through technology. It’s ideal for anyone seeking emotional resilience and rest in a fast-paced lifestyle.",
+    "size": 51,
+    "reviews": 2022,
+    "ratingAvg": 4.7,
+    "downloads": 680000,
+    "ratings": [
+      { "name": "1 star", "count": 113 },
+      { "name": "2 star", "count": 129 },
+      { "name": "3 star", "count": 193 },
+      { "name": "4 star", "count": 545 },
+      { "name": "5 star", "count": 1042 }
+    ]
+  },
+  {
+    "id": 21,
+    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
+    "title": "Notelytics",
+    "companyName": "BrainBit Labs",
+    "description": "Notelytics merges note-taking with analytical thinking. Designed for learners, researchers, and strategists, it allows users to capture thoughts and instantly convert them into structured data. Notes can include links, diagrams, and smart tags. The app’s most powerful feature is 'Insight Mode,' which analyzes your notes and surfaces key ideas, action items, and topic trends using AI. Notelytics also includes audio recording with auto-transcription, perfect for meetings and brainstorming sessions. Unlike plain note apps, it treats every note as a potential idea worth analyzing. It syncs seamlessly across desktop and mobile, includes offline editing, and has export options for Markdown and PDF. The intuitive dashboard visualizes your note connections through a mind-map interface. Whether you're building a thesis, planning business strategies, or tracking inspiration, Notelytics turns random notes into structured intelligence. It’s like having an assistant that helps you think smarter and deeper every day.",
+    "size": 70,
+    "reviews": 2897,
+    "ratingAvg": 4.8,
+    "downloads": 810000,
+    "ratings": [
+      { "name": "1 star", "count": 167 },
+      { "name": "2 star", "count": 159 },
+      { "name": "3 star", "count": 203 },
+      { "name": "4 star", "count": 623 },
+      { "name": "5 star", "count": 1745 }
+    ]
+  },
+  {
+    "id": 22,
+    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
+    "title": "GoalMind",
+    "companyName": "VisionarySoft",
+    "description": "GoalMind is your personal goal-setting and achievement partner. Built for dreamers and doers, it helps transform vague ideas into structured, measurable goals. The app breaks long-term goals into small milestones and daily actions. Each goal includes motivation cards, progress meters, and visualization boards to keep your ambition alive. GoalMind’s AI-based coach provides daily prompts and weekly performance insights, helping users stay accountable. The app also features a 'Vision Journal' where users can write affirmations, visualize progress, and attach inspiration images. It syncs with calendars to ensure reminders appear at the perfect time. The built-in community offers goal-sharing circles, where members cheer each other on toward growth. Whether it’s saving money, writing a book, or forming a healthy habit, GoalMind ensures your dream doesn’t fade into wishful thinking. Its elegant interface, motivational design, and practical tools make it a perfect blend of inspiration and execution.",
+    "size": 58,
+    "reviews": 3165,
+    "ratingAvg": 4.9,
+    "downloads": 970000,
+    "ratings": [
+      { "name": "1 star", "count": 142 },
+      { "name": "2 star", "count": 163 },
+      { "name": "3 star", "count": 192 },
+      { "name": "4 star", "count": 572 },
+      { "name": "5 star", "count": 2096 }
+    ]
+  },
+  {
+    "id": 23,
+    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
+    "title": "MindFuel",
+    "companyName": "CalmTech Labs",
+    "description": "MindFuel is a lifestyle app for mental fitness and focus nourishment. It delivers daily brain exercises, micro-journals, and guided reflection sessions to help users strengthen self-awareness and cognitive agility. Unlike apps that only focus on meditation, MindFuel treats focus like a muscle — training it through structured mental challenges and mindfulness breaks. The app’s 'Daily Boost' feature curates personalized challenges combining small cognitive tasks and breathing exercises. Users can measure their attention levels, track progress, and compete in friendly focus challenges. MindFuel also curates daily insights from psychology and neuroscience experts to help users understand how habits shape the brain. The sleek interface and adaptive light/dark themes make it comfortable for daily use. MindFuel empowers users to transform mental fatigue into clarity, one mindful practice at a time — perfect for creatives, students, and busy professionals seeking mental balance.",
+    "size": 53,
+    "reviews": 2266,
+    "ratingAvg": 4.7,
+    "downloads": 640000,
+    "ratings": [
+      { "name": "1 star", "count": 121 },
+      { "name": "2 star", "count": 138 },
+      { "name": "3 star", "count": 189 },
+      { "name": "4 star", "count": 532 },
+      { "name": "5 star", "count": 1286 }
+    ]
+  },
+  {
+    "id": 24,
+    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
+    "title": "DailyZen",
+    "companyName": "Horizon Bloom",
+    "description": "DailyZen is a mindfulness and productivity balance app designed to help you start and end each day with intention. The app opens with a short reflection prompt and a one-minute breathing session to set your focus. You can write quick morning goals, gratitude notes, and evening reflections in the built-in journal. Over time, DailyZen’s smart algorithm recognizes your stress patterns and suggests micro meditations and positive affirmations. It integrates with calendar and task apps to gently remind you to pause, breathe, or reflect. The interface is smooth, with calming animations inspired by Japanese design philosophy — emphasizing simplicity and space. DailyZen isn’t about doing more; it’s about doing better, with awareness. Whether you’re managing work stress or building mindfulness habits, this app provides peace, purpose, and focus throughout the day.",
+    "size": 47,
+    "reviews": 1853,
+    "ratingAvg": 4.6,
+    "downloads": 520000,
+    "ratings": [
+      { "name": "1 star", "count": 113 },
+      { "name": "2 star", "count": 121 },
+      { "name": "3 star", "count": 198 },
+      { "name": "4 star", "count": 464 },
+      { "name": "5 star", "count": 957 }
+    ]
+  },
+  {
+    "id": 25,
+    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
+    "title": "Workly",
+    "companyName": "NovaEdge Systems",
+    "description": "Workly is an intelligent task automation and focus enhancement app designed for digital professionals and entrepreneurs. It combines productivity analytics, deep-work timers, and workflow automation in one elegant dashboard. Users can connect Workly with tools like Notion, ClickUp, and Slack to automate repetitive actions — such as setting task reminders or marking daily goals. Its 'Focus Engine' creates distraction-free work sessions and tracks cognitive fatigue through your typing and mouse activity. The app then recommends optimal break times or focus stretches. One of Workly’s strongest features is the 'Clarity Board,' a visualization tool that shows how your attention shifts across projects. With dark and ambient themes, sound-assisted focus sessions, and adaptive performance tracking, Workly acts like a digital productivity coach. Whether you’re managing a business or freelancing from home, Workly ensures every hour of effort aligns with purpose and flow. It’s designed for those who want to achieve more while staying calm and centered.",
+    "size": 75,
+    "reviews": 3245,
+    "ratingAvg": 4.8,
+    "downloads": 1040000,
+    "ratings": [
+      { "name": "1 star", "count": 178 },
+      { "name": "2 star", "count": 184 },
+      { "name": "3 star", "count": 241 },
+      { "name": "4 star", "count": 635 },
+      { "name": "5 star", "count": 2007 }
+    ]
+  }
+
+]
