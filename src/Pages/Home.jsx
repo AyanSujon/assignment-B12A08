@@ -6,7 +6,7 @@ import useApps from '../Hooks/useApps';
 
 const Home = () => {
 
-const { apps,loading, error }  =useApps();
+const { apps }  =useApps();
 
 const featuredApps = apps.slice(0, 8);
 

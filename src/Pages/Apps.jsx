@@ -5,6 +5,7 @@ import AppCard from '../Components/AppCard';
 import { Link } from 'react-router';
 import Loading from '../Layouts/Loading';
 import AppNotFound from './AppNotFound';
+import ErrorPage from './ErrorPage';
 
 
 
@@ -15,20 +16,21 @@ const Apps = () => {
     if(loading){
         return <Loading/>;
        }
+    
+        if(error){
+        return <ErrorPage/>
+       }
 
     const term = search.trim().toLocaleLowerCase();
 
     const searchedApps = term? apps.filter(app => app.title.toLocaleLowerCase().includes(term)): apps;
-        // if(searchedApps.length === 0) {
-        // return  <AppNotFound />
-        // }
 
 
     return (
         <>
         <div className='py-20 bg-[#F5F5F5] '>
         <Container>
-            <div className='flex justify-between items-center mb-5'>
+            <div className='flex justify-between items-center mb-10 px-2'>
                 <div>
                     <h6 className='font-semibold'>(<span>{searchedApps.length}</span>) Apps Found</h6>
                 </div>
@@ -55,19 +57,17 @@ const Apps = () => {
                     <h2 className='text-[#001931] text-5xl font-bold'>Trending Apps</h2>
                     <p className='text-[#627382] text-xl'>Explore All Trending Apps on the Market developed by us</p>
                 </div>
-                <div className='card-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 px-2 py-10'>
                 {
-                searchedApps.map(app =>  <AppCard key={app.id} app={app}/> )
+                    searchedApps.length === 0?
+                     <AppNotFound />
+                     :
+                    <div className='card-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 px-2 py-10'>
+                    {
+                    searchedApps.map(app =>  <AppCard key={app.id} app={app}/> )
+                    }
+                    </div>
+
                 }
-
-                {/* {searchedApps.length > 0 ? (
-                        searchedApps.map(app => <AppCard key={app.id} app={app} />)
-                    ) : (
-                        <AppNotFound />
-                    )} */}
-
-                </div>
-            
             </div>
         </Container>
         </div>
