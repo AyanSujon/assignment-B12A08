@@ -25,6 +25,21 @@ const AppDetails = () => {
 
     const {title, image, ratingAvg, downloads, companyName, reviews, description} = app || {};
 
+const handleAddToInstallation =()=>{
+    const existinglist = JSON.parse(localStorage.getItem('installation'))
+    let updatedList = [];
+    if(existinglist){
+        const isDuplicate = existinglist.some(a => a.id === app.id)
+        if(isDuplicate) return alert(`Sorry! You Already Installed "${app.title}" App!`)
+        updatedList = [...existinglist, app]
+        alert(`Installed "${app.title}" App Successfully!`)
+    }else{
+        updatedList.push(app)
+        alert(`Installed "${app.title}" App Successfully!`)
+    }
+    localStorage.setItem("installation", JSON.stringify(updatedList))
+
+}
 
 
 
@@ -89,7 +104,6 @@ const data = [
 
 
 
-
     return (
         <>
         <div className='bg-[#FAFAFA] py-20'>
@@ -129,7 +143,7 @@ const data = [
                         </div>
                       </div>
                     <div className="card-actions">
-                    <button className="btn mt-5 bg-[#00D390] text-white">Install Now (291 MB)</button>
+                    <button onClick={handleAddToInstallation} className="btn mt-5 bg-[#00D390] text-white">Install Now (291 MB)</button>
                     </div>
                 </div>
                 </div>
