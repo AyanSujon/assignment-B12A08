@@ -6,12 +6,27 @@ import { ChevronDown, Download, Star } from 'lucide-react';
 const Installation = () => {
 
     const [install, setInstall] = useState([]);
+    const [sortOrder, setSortOrder] = useState('none')
+
     useEffect(()=> {
         const savedList = JSON.parse(localStorage.getItem('installation'))
         if(savedList){
             setInstall(savedList)
         }
-    },[])
+    },[]);
+
+
+    const sortedItem = (
+        ()=> {
+        if(sortOrder === 'size-asc'){
+            return [...install].sort((a, b)=> a.size - b.size)
+        }else if(sortOrder === 'size-dsc'){
+             return [...install].sort((a, b)=> b.size - a.size)
+        }else{
+           return install
+        }
+    }
+    )();
 
 
     return (
@@ -29,20 +44,41 @@ const Installation = () => {
                         <h6 className='font-semibold'>(<span>{install.length}</span>) Apps Found</h6>
                     </div>
                     <div>
-                        <details className="dropdown">
-                        <summary className="btn m-1">Sort By Size<span><ChevronDown /></span></summary>
-                        <ul className="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
-                            <li><a>High-Low</a></li>
-                            <li><a>Low-High</a></li>
+
+                    <select 
+                    value={sortOrder}
+                    onChange={e => setSortOrder(e.target.value)}
+                    
+                    defaultValue="Pick a color" className="select">
+                    <option
+                    value={'none'}
+                    disabled={true}>Sort By Size</option>
+                    <option value='size-dsc'>High-Low</option>
+                    <option value='size-asc'>Low-High</option>
+                    </select>
+
+
+
+
+
+                        {/* <details className="dropdown">
+                        <summary value={'none'} className="btn m-1">Sort By Size<span><ChevronDown /></span></summary>
+                        <ul 
+                        value={sortOrder}
+                        onChange={e => setSortOrder(e.target.value)}
+                        
+                        className="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+                            <li><a value='size-dsc'>High-Low</a></li>
+                            <li><a value='size-asc'>Low-High</a></li>
                         </ul>
-                        </details>
+                        </details> */}
                     </div>
                 </div>
 
                 {/* installation card container */}
                 <div className='card-container space-y-3'>
                 {
-                    install.map(a=> 
+                    sortedItem.map(a=> 
                         
                     <div className='flex justify-between items-center gap-5 flex-wrap bg-white rounded-lg p-4 shadaw-sm'>
                         <div className='flex items-center gap-5 '>
