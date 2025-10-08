@@ -5,6 +5,7 @@ import Container from '../Layouts/Container';
 import downloadImage from '../assets/icon-downloads.png';
 import averageRatingsImage from '../assets/icon-ratings.png';
 import totalReviewsImage from '../assets/icon-review.png';
+import Loading from '../Layouts/Loading';
 
 
 const AppDetails = () => {
@@ -14,7 +15,7 @@ const AppDetails = () => {
     const app = apps.find(p => String(p.id) === id );
     // console.log(app);
        if(loading){
-        return <p>Loading...</p>
+        return <Loading/>
        }
     const {title, image, ratingAvg, downloads, companyName, reviews, description} = app || {};
 
