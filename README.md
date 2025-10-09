@@ -13,7 +13,7 @@ At HERO.IO, we leverage modern and reliable technologies to build fast, secure, 
 >
 >UI/UX Design: Figma
 >
->Tools & DevOps: Git, GitHub, Netlify
+>Tools: Git, GitHub, Netlify
 
 
 
