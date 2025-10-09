@@ -8,6 +8,7 @@ import totalReviewsImage from '../assets/icon-review.png';
 import Loading from '../Layouts/Loading';
 import ErrorPage from './ErrorPage';
 import { Bar, BarChart, CartesianGrid, Legend, Tooltip, XAxis, YAxis } from 'recharts';
+import { toast } from 'react-toastify';
 
 
 const AppDetails = () => {
@@ -30,12 +31,12 @@ const handleAddToInstallation =()=>{
     let updatedList = [];
     if(existinglist){
         const isDuplicate = existinglist.some(a => a.id === app.id)
-        if(isDuplicate) return alert(`Sorry! You Already Installed "${app.title}" App!`)
+        if(isDuplicate) return toast.error(`Sorry! You Already Installed "${app.title}" App!`)
         updatedList = [...existinglist, app]
-        alert(`Installed "${app.title}" App Successfully!`)
+        toast.success(`Installed "${app.title}" App Successfully!`)
     }else{
         updatedList.push(app)
-        alert(`Installed "${app.title}" App Successfully!`)
+        toast.success(`Installed "${app.title}" App Successfully!`)
     }
     localStorage.setItem("installation", JSON.stringify(updatedList))
 

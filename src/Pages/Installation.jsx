@@ -3,6 +3,7 @@ import Container from '../Layouts/Container';
 import { ChevronDown, Download, Star } from 'lucide-react';
 import useApps from '../Hooks/useApps';
 import Loading from '../Layouts/Loading';
+import { toast } from 'react-toastify';
 
 
 const Installation = () => {
@@ -46,7 +47,7 @@ const { loading, error }  =useApps();
         let updatedList = existinglist.filter(a => a.id !== id );
         // for ui instant update
         setInstall(updatedList);
-        alert("successfully uninstalled app")
+       toast.success("App uninstalled successfully!")
  
         localStorage.setItem("installation", JSON.stringify(updatedList));
 
