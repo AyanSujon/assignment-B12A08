@@ -1,6 +1,6 @@
 import React from 'react';
 import Container from '../Layouts/Container';
-import { Link } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import { Github } from 'lucide-react';
 import siteLogo from '../assets/logo.png'
 
@@ -20,18 +20,18 @@ const Navbar = () => {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <li><Link to={"/"}>Home</Link></li>
-                            <li><Link to={"/apps"}>Apps</Link></li>
-                            <li><Link to={"/installation"}>Installation</Link></li>
+                            <li><NavLink style={({ isActive }) => ({ color: isActive ? '#632EE3' : '#001931'})} to={"/"}>Home</NavLink></li>
+                            <li><NavLink style={({ isActive }) => ({ color: isActive ? '#632EE3' : '#001931'})} to={"/apps"}>Apps</NavLink></li>
+                            <li><NavLink style={({ isActive }) => ({ color: isActive ? '#632EE3' : '#001931'})} to={"/installation"}>Installation</NavLink></li>
                         </ul>
                         </div>
-                        <Link to={"/"} className=" flex items-center gap-1 font-bold text-xl text-[#632EE3]"> <figure className='w-10'><img className='object-cover' src={siteLogo} alt="Site Logo" /></figure> HERO.IO</Link>
+                        <NavLink to={"/"} className=" flex items-center gap-1 font-bold text-xl text-[#632EE3]"> <figure className='w-10'><img className='object-cover' src={siteLogo} alt="Site Logo" /></figure> HERO.IO</NavLink>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">
-                        <li><Link to={"/"}>Home</Link></li>
-                        <li><Link to={"/apps"}>Apps</Link></li>
-                        <li><Link to={"/installation"}>Installation</Link></li>
+                        <li><NavLink style={({ isActive }) => ({ color: isActive ? '#632EE3' : '#001931'})} to={"/"}>Home</NavLink></li>
+                        <li><NavLink style={({ isActive }) => ({ color: isActive ? '#632EE3' : '#001931'})} to={"/apps"}>Apps</NavLink></li>
+                        <li><NavLink style={({ isActive }) => ({ color: isActive ? '#632EE3' : '#001931'})} to={"/installation"}>Installation</NavLink></li>
                         </ul>
                     </div>
                     <div className="navbar-end">
