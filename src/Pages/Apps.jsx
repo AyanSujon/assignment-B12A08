@@ -10,8 +10,10 @@ import ErrorPage from './ErrorPage';
 
 
 const Apps = () => {
+
     const [search, setSearch] = useState("");
-    const { apps,loading, error }  =useApps();
+    const { apps, loading, error }  =useApps();
+    
     if(loading){
         return <Loading/>;
        }
@@ -21,8 +23,8 @@ const Apps = () => {
        }
 
     const term = search.trim().toLocaleLowerCase();
+    const searchedApps = term? apps.filter(app => app.title.toLocaleLowerCase().includes(term)): apps
 
-    const searchedApps = term? apps.filter(app => app.title.toLocaleLowerCase().includes(term)): apps;
 
 
     return (
@@ -62,7 +64,7 @@ const Apps = () => {
             </div>
 
                 {
-                    loading?(<div className='py-10'><Loading /></div>)
+                    loading ?(<div className='py-10'><Loading /></div>)
                     :
                     searchedApps.length === 0?
                      <AppNotFound />
@@ -72,7 +74,7 @@ const Apps = () => {
                     searchedApps.map(app =>  <AppCard key={app.id} app={app}/> )
                     }
                     </div>
-                    
+
                     
 
                 }
