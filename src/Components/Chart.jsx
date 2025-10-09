@@ -1,56 +1,56 @@
 import React from 'react';
-import { BarChart, Bar, ResponsiveContainer } from 'recharts';
-
-const data = [
-  {
-    name: 'Page A',
-    uv: 4000,
-    pv: 2400,
-    amt: 2400,
-  },
-  {
-    name: 'Page B',
-    uv: 3000,
-    pv: 1398,
-    amt: 2210,
-  },
-  {
-    name: 'Page C',
-    uv: 2000,
-    pv: 9800,
-    amt: 2290,
-  },
-  {
-    name: 'Page D',
-    uv: 2780,
-    pv: 3908,
-    amt: 2000,
-  },
-  {
-    name: 'Page E',
-    uv: 1890,
-    pv: 4800,
-    amt: 2181,
-  },
-  {
-    name: 'Page F',
-    uv: 2390,
-    pv: 3800,
-    amt: 2500,
-  },
-  {
-    name: 'Page G',
-    uv: 3490,
-    pv: 4300,
-    amt: 2100,
-  },
-];
+import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid, LabelList } from 'recharts';
+import useApps from '../Hooks/useApps';
+import Loading from '../Layouts/Loading';
 
 const Chart = () => {
+  const { apps, loading, error } = useApps();
+
+  if (loading) return <Loading/>;
+  if (error) return <p>Error loading data...</p>;
+
+  const ratingsData = Array.isArray(apps)
+    ? apps[0]?.ratings || []
+    : apps?.ratings || [];
+
+  // Sort ratings from 5 star → 1 star
+  const sortedData = [...ratingsData].sort((a, b) => {
+    const aNum = parseInt(a.name);
+    const bNum = parseInt(b.name);
+    return bNum - aNum; 
+  });
+
+  // Prepare data for chart
+  const data = sortedData.map(r => ({
+    rating: r.name,
+    count: r.count,
+  }));
+
+  if (!data.length) return <p>No rating data found.</p>;
+
   return (
-    <ResponsiveContainer width="100%" height="100%">
-      <BarChart width={150} height={40} data={data}>
-        <Bar dataKey="uv" fill="#8884d8" />
+    <ResponsiveContainer width="100%" height={300}>
+      <BarChart
+        layout="vertical"
+        data={data}
+        margin={{ top: 20, right: 90, left: 10, bottom: 20 }}
+      >
+        <CartesianGrid strokeDasharray="3 3" />
+        <XAxis
+          type="number"
+          domain={[0, 'dataMax']}
+          tick={{ fill: '#555' }}
+        />
+        <YAxis
+          type="category"
+          dataKey="rating"
+          width={80}
+          tick={{ fill: '#555' }}
+        />
+        <Tooltip />
+        <Bar dataKey="count" fill="orange" barSize={20}>
+          <LabelList dataKey="count" position="right" style={{ fill: '#333' }} />
+        </Bar>
       </BarChart>
     </ResponsiveContainer>
   );

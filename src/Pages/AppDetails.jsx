@@ -8,6 +8,7 @@ import totalReviewsImage from '../assets/icon-review.png';
 import Loading from '../Layouts/Loading';
 import ErrorPage from './ErrorPage';
 import { toast } from 'react-toastify';
+import Chart from '../Components/Chart';
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -90,10 +91,8 @@ const AppDetails = () => {
         </div>
 
         <div className="divider"></div>
-
-
-
-
+        {/* Chart for component > Chart.jsx */}
+        <Chart/>
 
         <div className="divider"></div>
         <div className='px-2 space-y-2'>
