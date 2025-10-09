@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import useApps from '../Hooks/useApps';
 import Container from '../Layouts/Container';
@@ -14,9 +14,17 @@ import { toast } from 'react-toastify';
 const AppDetails = () => {
      const {id} = useParams();
     const { apps, loading, error }  =useApps();
+    const [isInstalled, setIsInstalled] = useState(false);
+
+
     // console.log(apps);
     const app = apps.find(p => String(p.id) === id );
     // console.log(app);
+
+
+
+
+
        if(loading){
         return <Loading/>
        }
@@ -24,7 +32,16 @@ const AppDetails = () => {
         return <ErrorPage/>
        }
 
-    const {title, image, ratingAvg, downloads, companyName, reviews, description} = app || {}
+    const {title, image, ratingAvg, downloads, companyName, reviews, description} = app || {};
+
+    // Check installation status on load
+    useEffect(() => {
+      if (!app) return; // ✅ Skip if app not ready
+      const existingList = JSON.parse(localStorage.getItem('installation')) || [];
+      const installed = existingList.some(a => a.id === app.id);
+      setIsInstalled(installed);
+    }, [app]);
+
 
 const handleAddToInstallation =()=>{
     const existinglist = JSON.parse(localStorage.getItem('installation'))
@@ -33,9 +50,11 @@ const handleAddToInstallation =()=>{
         const isDuplicate = existinglist.some(a => a.id === app.id)
         if(isDuplicate) return toast.error(`Sorry! You Already Installed "${app.title}" App!`)
         updatedList = [...existinglist, app]
+      setIsInstalled(true);
         toast.success(`Installed "${app.title}" App Successfully!`)
     }else{
         updatedList.push(app)
+        setIsInstalled(true);
         toast.success(`Installed "${app.title}" App Successfully!`)
     }
     localStorage.setItem("installation", JSON.stringify(updatedList))
@@ -84,6 +103,27 @@ const data = [
 ]
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     return (
         <>
         <div className='bg-[#FAFAFA] py-20'>
@@ -123,7 +163,7 @@ const data = [
                         </div>
                       </div>
                     <div className="card-actions">
-                    <button onClick={handleAddToInstallation} className="btn mt-5 bg-[#00D390] text-white">Install Now (291 MB)</button>
+                    <button onClick={handleAddToInstallation} disabled={isInstalled} className="btn mt-5 bg-[#00D390] text-white">{isInstalled ? 'Installed' : 'Install Now (291 MB)'}</button>
                     </div>
                 </div>
                 </div>
