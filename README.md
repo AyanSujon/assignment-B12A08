@@ -7,10 +7,11 @@ Tagline: We Build Productive Apps
 ## Technologies We Use
 
 At HERO.IO, we leverage modern and reliable technologies to build fast, secure, and scalable applications.
-
-Frontend: React, HTML5, CSS3, Tailwind CSS, JavaScript
-UI/UX Design: Figma
-Tools & DevOps: Git, GitHub, Netlify
+>
+>
+>Frontend: React, HTML5, CSS3, Tailwind CSS, JavaScript
+>UI/UX Design: Figma
+>Tools & DevOps: Git, GitHub, Netlify
 
 
 
