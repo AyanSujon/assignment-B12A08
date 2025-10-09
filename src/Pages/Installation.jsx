@@ -1,12 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import Container from '../Layouts/Container';
 import { ChevronDown, Download, Star } from 'lucide-react';
+import useApps from '../Hooks/useApps';
+import Loading from '../Layouts/Loading';
 
 
 const Installation = () => {
 
     const [install, setInstall] = useState([]);
-    const [sortOrder, setSortOrder] = useState('none')
+    const [sortOrder, setSortOrder] = useState('none');
+
+
 
     useEffect(()=> {
         const savedList = JSON.parse(localStorage.getItem('installation'))
@@ -15,6 +19,14 @@ const Installation = () => {
         }
     },[]);
 
+
+const { loading, error }  =useApps();
+        if(loading){
+        return <Loading/>;
+       }
+        if(error){
+        return <ErrorPage/>
+       }
 
     const sortedItem = (
         ()=> {
@@ -34,17 +46,9 @@ const Installation = () => {
         let updatedList = existinglist.filter(a => a.id !== id );
         // for ui instant update
         setInstall(updatedList);
+        alert("successfully uninstalled app")
  
         localStorage.setItem("installation", JSON.stringify(updatedList));
-
-
-
-
-
-
-
-
-
 
     }
 
@@ -81,7 +85,11 @@ const Installation = () => {
 
                 {/* installation card container */}
                 <div className='card-container space-y-3'>
+
                 {
+                sortedItem.length === 0?
+                <h1 className='text-[#001931] font-semibold text-3xl text-center py-10'>No Installed Apps Found</h1>
+                :
                     sortedItem.map(a=> 
                         
                     <div className='flex justify-between items-center gap-5 flex-wrap bg-white rounded-lg p-4 shadaw-sm'>

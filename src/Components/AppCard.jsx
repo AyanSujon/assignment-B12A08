@@ -2,9 +2,11 @@ import React from 'react';
 import { Download, Star } from 'lucide-react';
 import { Link } from 'react-router';
 
+
 const AppCard = ({app}) => {
     // console.log(app)
     const {title, image, id, ratingAvg, downloads} = app;
+
 
     return (
         <Link to={`/apps/${id}`}>

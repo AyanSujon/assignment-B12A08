@@ -2,10 +2,9 @@ import React, { useState } from 'react';
 import useApps from '../Hooks/useApps';
 import Container from '../Layouts/Container';
 import AppCard from '../Components/AppCard';
-import { Link } from 'react-router';
 import Loading from '../Layouts/Loading';
 import AppNotFound from './AppNotFound';
-// import ErrorPage from './ErrorPage';
+import ErrorPage from './ErrorPage';
 
 
 
@@ -63,6 +62,8 @@ const Apps = () => {
             </div>
 
                 {
+                    loading?(<div className='py-10'><Loading /></div>)
+                    :
                     searchedApps.length === 0?
                      <AppNotFound />
                      :
@@ -71,6 +72,8 @@ const Apps = () => {
                     searchedApps.map(app =>  <AppCard key={app.id} app={app}/> )
                     }
                     </div>
+                    
+                    
 
                 }
             </div>
