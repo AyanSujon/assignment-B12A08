@@ -430,24 +430,7 @@
       { "name": "4 star", "count": 567 },
       { "name": "5 star", "count": 1871 }
     ]
-  },
-  {
-    "id": 25,
-    "image": "https://i.ibb.co.com/93fcmL6S/download.png",
-    "title": "ClarityNote – Mind Journal",
-    "companyName": "BrightPath Apps",
-    "description": "ClarityNote is a reflective journaling app built to promote mindfulness, emotional intelligence, and focus. It allows users to capture daily thoughts, gratitude entries, and affirmations through guided prompts. The app’s mood tracker visualizes emotional patterns, helping users identify triggers and maintain mental balance. You can set personal intentions, attach photos, or record voice reflections. Its soothing design and calming themes make journaling enjoyable and habit-forming. ClarityNote also syncs securely across devices and offers encryption for privacy. It’s perfect for anyone looking to build self-awareness and calm in a busy digital world.",
-    "size": 50,
-    "reviews": "3.1K",
-    "ratingAvg": 4.9,
-    "downloads": "910K",
-    "ratings": [
-      { "name": "1 star", "count": 141 },
-      { "name": "2 star", "count": 124 },
-      { "name": "3 star", "count": 176 },
-      { "name": "4 star", "count": 589 },
-      { "name": "5 star", "count": 2070 }
-    ]
   }
+
 ]
 

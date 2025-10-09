@@ -75,8 +75,6 @@ const Apps = () => {
                     }
                     </div>
 
-                    
-
                 }
             </div>
         </Container>

@@ -27,9 +27,6 @@ const AppDetails = () => {
 
     const {title, image, ratingAvg, downloads, companyName, reviews, description} = app || {}
 
-
-
-
     
 const handleAddToInstallation =()=>{
     const existinglist = JSON.parse(localStorage.getItem('installation'))

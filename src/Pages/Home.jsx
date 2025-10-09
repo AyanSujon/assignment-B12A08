@@ -27,9 +27,6 @@ const featuredApps = apps.slice(0, 8);
         <Hero/>
         <TrustedByMillions/>
         <TrendingApps featuredApps={featuredApps}/>
-        
-
-        
         </>
     );
 };
