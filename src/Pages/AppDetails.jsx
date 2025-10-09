@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useParams } from 'react-router';
 import useApps from '../Hooks/useApps';
 import Container from '../Layouts/Container';
@@ -14,6 +14,7 @@ import { toast } from 'react-toastify';
 const AppDetails = () => {
      const {id} = useParams();
     const { apps, loading, error }  =useApps();
+    const [disabled, setDisabled] = useState(false);
     // console.log(apps);
     const app = apps.find(p => String(p.id) === id );
     // console.log(app);
@@ -26,6 +27,10 @@ const AppDetails = () => {
 
     const {title, image, ratingAvg, downloads, companyName, reviews, description} = app || {}
 
+
+
+
+    
 const handleAddToInstallation =()=>{
     const existinglist = JSON.parse(localStorage.getItem('installation'))
     let updatedList = [];
@@ -39,7 +44,8 @@ const handleAddToInstallation =()=>{
         toast.success(`Installed "${app.title}" App Successfully!`)
     }
     localStorage.setItem("installation", JSON.stringify(updatedList))
-
+setDisabled(true);
+    
 }
 
 
@@ -123,7 +129,7 @@ const data = [
                         </div>
                       </div>
                     <div className="card-actions">
-                    <button onClick={handleAddToInstallation} className="btn mt-5 bg-[#00D390] text-white">Install Now (291 MB)</button>
+                    <button onClick={handleAddToInstallation}  disabled={disabled} className="btn mt-5 bg-[#00D390] text-white"> {disabled ? "Installed" : "Install Now (291 MB)"}</button>
                     </div>
                 </div>
                 </div>
